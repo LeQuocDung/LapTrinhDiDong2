@@ -1,0 +1,196 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="navigationtheme">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Base application theme. -->
+    <style name="navigationstyle">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:background">@color/lightWhite</item>
+    </style>
+    <!-- match_match -->
+    <style name="match_match">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    <!-- match_match -->
+    <style name="anh_nen">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:background">@drawable/hinhnenchinh</item>
+    </style>
+    <!-- match_wrap -->
+    <style name="match_wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <!-- wrap_wrap_center -->
+    <style name="wrap_wrap_center">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <!-- wrap_wrap_centerh_vertical -->
+    <style name="w_wr_centerh_vertical">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!-- image icon xoa sua -->
+    <style name="icon_ltem">
+        <item name="android:layout_width">20dp</item>
+        <item name="android:layout_height">20dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <!-- image icon gv -->
+    <style name="image_icongv">
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <!-- style button. -->
+    <style name="styleButton">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_width">85dp</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:background">@drawable/mauxanh</item>
+    </style>
+    <!-- style button. -->
+    <style name="styleButton_catelogy">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_height">100dp</item>
+        <item name="android:layout_width">120dp</item>
+        <item name="android:layout_margin">10dp</item>
+        <item name="android:background">@drawable/card1</item>
+    </style>
+
+    <!-- style button. -->
+    <style name="styleGirdView">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:columnWidth">50dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:numColumns">1</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:verticalSpacing">4dp</item>
+    </style>
+
+
+    <style name="layout_linnear_button">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+    <!-- style image icon right. -->
+    <style name="style_imageicon_right">
+
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <!-- style image icon left. -->
+    <style name="style_imageicon_left">
+
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:layout_centerVertical">true</item>
+    </style>
+    <!-- style image icon left. -->
+    <style name="style_appname">
+
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:fontFamily">cursive</item>
+        <item name="android:textStyle">italic</item>
+        <item name="android:text">@string/logoApp</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <!-- style image icon left. -->
+    <style name="khung_timkiem">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">35dp</item>
+        <item name="android:layout_below">@id/app_name</item>
+        <item name="android:layout_marginLeft">40dp</item>
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginRight">40dp</item>
+        <item name="android:background">@drawable/khungtimkiem</item>
+    </style>
+    <!-- style image main. -->
+    <style name="imade_main">
+
+        <item name="android:layout_width">75dp</item>
+        <item name="android:layout_height">75dp</item>
+        <item name="android:layout_centerInParent">true</item>
+    </style>
+
+    <!-- style textview search. -->
+    <style name="textview_search">
+
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_centerVertical">true</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:text">@string/timkiem</item>
+    </style>
+    <!-- 11 -->
+    <style name="text_style_11">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">11dp</item>
+    </style>
+    <!-- 11 -->
+    <style name="text_style_16">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <!-- style linear_text. -->
+    <style name="linear_text">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <!-- style linear_text. -->
+    <style name="edit_text_w">
+        <!-- Customize your theme here. -->
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginTop">3dp</item>
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:background">@drawable/khungedittext</item>
+    </style>
+
+</resources>

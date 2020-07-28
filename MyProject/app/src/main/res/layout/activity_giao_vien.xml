@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/anh_nen"
+    android:orientation="vertical"
+    tools:context="com.example.myproject.GiaoDien.GiaoVien">
+
+    <RelativeLayout style="@style/match_wrap">
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/svSearchGV"
+            style="@style/style_imageicon_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:queryHint="Search here" />
+
+        <ImageView
+            android:id="@+id/btnBack"
+            style="@style/style_imageicon_left"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="cursive"
+        android:textSize="26dp"
+        android:textColor="#25ADEA"
+        android:text="Giáo viên"/>
+
+
+    <FrameLayout
+        style="@style/match_match">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/gvDanhSachGV"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            style="@style/styleGirdView">
+
+        </androidx.recyclerview.widget.RecyclerView>
+
+        <ImageButton
+            android:id="@+id/btnWThemgv"
+            android:background="@drawable/shape_hinhtron"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:src="@drawable/ic_baseline_add_24" />
+    </FrameLayout>
+
+
+</LinearLayout>

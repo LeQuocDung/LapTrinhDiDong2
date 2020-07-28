@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="@string/home"
+            android:icon="@drawable/ic_baseline_home_24"/>
+        <item
+            android:id="@+id/nav_giaovien"
+            android:title="@string/giaovien"
+            android:icon="@drawable/ic_baseline_group_24"/>
+        <item
+            android:id="@+id/nav_pcb"
+            android:title="@string/phieuchambai"
+            android:icon="@drawable/ic_baseline_event_available_24"/>
+        <item
+            android:id="@+id/nav_ttcb"
+            android:title="@string/thongtinchambai"
+            android:icon="@drawable/ic_baseline_collections_bookmark_24"/>
+        <item
+            android:id="@+id/nav_mh"
+            android:icon="@drawable/ic_baseline_subject_24"
+            android:title="@string/monhoc" />
+        <item
+            android:id="@+id/nav_thoat"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="@string/thoat" />
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_login"
+                    android:title="@string/login"
+                    android:icon="@drawable/ic_baseline_person_outline_24"/>
+                <item
+                    android:id="@+id/profile"
+                    android:icon="@drawable/ic_baseline_account_circle_24"
+                    android:title="@string/profile" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    style="@style/match_match"
+    android:layout_gravity="top"
+    android:fitsSystemWindows="true"
+    tools:context="com.example.myproject.GiaoDien.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/content"
+        style="@style/anh_nen"
+        android:orientation="vertical">
+
+        <RelativeLayout style="@style/match_wrap">
+
+            <ImageView
+                android:id="@+id/menuicon"
+                style="@style/style_imageicon_left"
+                android:src="@drawable/ic_baseline_menu_24" />
+
+            <ImageView
+                android:id="@+id/tienich"
+                style="@style/style_imageicon_right"
+                android:src="@drawable/ic_baseline_add_24" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/match_wrap">
+
+            <TextView
+                android:id="@+id/app_name"
+                style="@style/style_appname" />
+
+            <RelativeLayout
+                android:id="@+id/timkiem"
+                style="@style/khung_timkiem"
+                android:elevation="4dp">
+
+                <TextView style="@style/textview_search" />
+
+                <ImageView
+                    style="@style/style_imageicon_right"
+                    android:src="@drawable/ic_baseline_search_24"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            style="@style/wrap_wrap_center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btnGiaoVien"
+                style="@style/w_wr_centerh_vertical">
+
+
+                <RelativeLayout
+                    style="@style/styleButton_catelogy"
+                    android:elevation="8dp">
+
+
+                    <ImageView
+                        android:id="@+id/imgGiaovien"
+                        style="@style/imade_main"
+                        android:src="@drawable/teacher" />
+
+                </RelativeLayout>
+
+                <TextView
+                    style="@style/w_wr_text_catelogy"
+                    android:text="@string/giaovien" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/btnPCB"
+                style="@style/w_wr_centerh_vertical">
+
+
+                <RelativeLayout
+                    style="@style/styleButton_catelogy"
+                    android:elevation="8dp">
+
+
+                    <ImageView
+                        android:id="@+id/imgPCB"
+                        style="@style/imade_main"
+                        android:src="@drawable/ic_baseline_event_note_24" />
+
+                </RelativeLayout>
+
+                <TextView
+                    style="@style/w_wr_text_catelogy"
+                    android:text="@string/phieuchambai" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/wrap_wrap_center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/btnTTCB"
+                style="@style/w_wr_centerh_vertical">
+
+
+                <RelativeLayout
+                    style="@style/styleButton_catelogy"
+                    android:elevation="8dp">
+
+
+                    <ImageView
+                        android:id="@+id/imgTTCB"
+                        style="@style/imade_main"
+                        android:src="@drawable/icon_imei_search" />
+
+                </RelativeLayout>
+
+                <TextView
+                    style="@style/w_wr_text_catelogy"
+                    android:text="@string/thongtinchambai" />
+            </LinearLayout>
+
+            <LinearLayout
+
+                android:id="@+id/btnMonHoc"
+                style="@style/w_wr_centerh_vertical">
+
+
+                <RelativeLayout
+                    style="@style/styleButton_catelogy"
+                    android:elevation="8dp">
+
+
+                    <ImageView
+                        android:id="@+id/imgMH"
+                        style="@style/imade_main"
+                        android:src="@drawable/monhoc" />
+
+                </RelativeLayout>
+
+                <TextView
+                    style="@style/w_wr_text_catelogy"
+                    android:text="@string/monhoc" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_menu"
+        style="@style/navigationstyle"
+        android:theme="@style/navigationtheme"
+        app:itemIconTint="@color/darkgray"
+        app:itemTextColor="@color/darkgray"
+        app:menu="@menu/item_drawer">
+
+    </com.google.android.material.navigation.NavigationView>
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/imageProgress"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/race_horse_01"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/race_horse_02"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/race_horse_03"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/race_horse_04"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/race_horse_05"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/race_horse_06"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/race_horse_07"
+        android:duration="150"/>
+    <item
+        android:drawable="@drawable/race_horse_08"
+        android:duration="150"/>
+
+</animation-list>

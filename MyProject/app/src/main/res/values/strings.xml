@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Quản lý chấm bài</string>
+    <string name="logoApp">Quản Lý Chấm Bài</string>
+    <string name="timkiem">Tìm kiếm...</string>
+    <string name="giaovien">Giáo viên</string>
+    <string name="monhoc">Môn học</string>
+    <string name="phieuchambai">Phiếu chấm bài</string>
+    <string name="thongtinchambai">Thông tin chấm bài</string>
+    <string name="them">Thêm</string>
+    <string name="xoa">Xóa</string>
+    <string name="sua">Sửa</string>
+    <string name="clear">Clear</string>
+    <string name="home">Trang chủ</string>
+    <string name="thoat">Thoát</string>
+    <string name="login">Đăng nhập</string>
+    <string name="profile">Profile</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="huy">Hủy</string>
+    <string name="magv">Mã giáo viên...</string>
+    <string name="tengv">Tên giáo viên...</string>
+    <string name="sodt">Số điện thoại...</string>
+</resources>

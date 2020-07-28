@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_khung"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageGV"
+        style="@style/image_icongv"
+        android:src="@drawable/teacher" />
+
+    <LinearLayout
+        style="@style/linear_text"
+        android:background="@drawable/nenitem"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvMaGV"
+           style="@style/text_style_11"
+            android:text="gv001" />
+
+        <TextView
+            android:id="@+id/tvHoTenGV"
+            style="@style/text_style_11"
+            android:text="Nguyen Thi Thu Thuy" />
+
+        <TextView
+            android:id="@+id/tvSDTGV"
+            style="@style/text_style_11"
+            android:text="0976964966" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/deleteImage"
+        style="@style/icon_ltem"
+        android:src="@drawable/ic_baseline_delete_forever_24" />
+    <ImageView
+        android:id="@+id/editImage"
+        style="@style/icon_ltem"
+        android:src="@drawable/ic_baseline_edit_24" />
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/anh_nen"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.ThemTienIch">
+
+    <RelativeLayout style="@style/match_wrap">
+
+
+        <ImageView
+            android:id="@+id/btnBack"
+            style="@style/style_imageicon_left"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="cursive"
+        android:text="Tiện ích"
+        android:textColor="#25ADEA"
+        android:textSize="26dp" />
+
+    <FrameLayout
+        android:id="@+id/hoatcanh"
+        style="@style/match_match">
+
+        <ImageView
+            android:id="@+id/conbao"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/imageview" />
+    </FrameLayout>
+
+</LinearLayout>

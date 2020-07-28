@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hinhnenchinh"
+    android:orientation="vertical"
+    tools:context="com.example.myproject.GiaoDien.DetailGV">
+
+    <RelativeLayout style="@style/match_wrap">
+        <ImageView
+            android:id="@+id/btnBack"
+            style="@style/style_imageicon_left"
+            android:src="@drawable/ic_baseline_keyboard_backspace_24" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/imageGVDetail"
+            android:src="@drawable/teacher" />
+
+        <TextView
+            android:id="@+id/tvMaGVDetail"
+            style="@style/text_style_16"
+            android:text="gv001" />
+
+        <TextView
+            android:id="@+id/tvHoTenGVDetail"
+            style="@style/text_style_16"
+            android:text="Nguyen Thi Thu Thuy" />
+
+        <TextView
+            android:id="@+id/tvSDTGVDetail"
+            style="@style/text_style_16"
+            android:text="0976964966" />
+    </LinearLayout>
+
+</LinearLayout>
